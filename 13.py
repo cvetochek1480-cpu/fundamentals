@@ -12,4 +12,4 @@ while True:
             print("But the number is higher than 100")
     else:
         print("This is more than 1000")
-    print ("Thanksuka")
+    print ("Thank YOOSSou!!!")
