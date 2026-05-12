@@ -15,4 +15,6 @@ while True:
             print("Result:",number1/number2)
         else:
             print("Second number is 0. Can't divide by 0.")
-            
+    else:
+        print("Can't accept that operation.")
+        break
