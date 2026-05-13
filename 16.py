@@ -8,6 +8,6 @@ while True:
     x1 = (-b + sqrt(D))/2*a
     x2 = (-b - sqrt(D))/2*a
     print (f"Your roots are: {x1} {x2}")
-    m = input("Do you have another quadratic equation?(y/n)\n")
+    m = input("Do you have another quadratic equation?(y/n)\n") #m refers to "more"
     if m == "n":
         break
