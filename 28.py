@@ -5,3 +5,4 @@ while number != limit:
     number += 1
     words += f" + {number}"
 print(f"{words} = {limit}")
+exit = input("Press Enter to exit")
