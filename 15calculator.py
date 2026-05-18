@@ -1,5 +1,11 @@
 while True:
-    number1 = int(input("Type the first number:\n"))
+    
+    while True:
+        try:
+            number1 = int(input("Type the first number:\n"))
+            break
+        except:
+            print('pls put a fuckng number')
     number2 = int(input("Type the second number:\n"))
     operation = input("Type the operation (add, multiply, subtract, divide) or 'quit' to exit:\n")
     if operation == "quit":
